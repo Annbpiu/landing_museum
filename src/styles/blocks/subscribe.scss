@@ -1,4 +1,5 @@
 .subscribe {
+  outline: none;
 
   @include onDesktop {
     margin-top: 100px;
@@ -6,9 +7,10 @@
 
   &__text {
     top: 150px;
+    outline: none;
   }
 
-  &__form {
+  &__forms {
     display: flex;
     position: relative;
     color: #fff;
@@ -16,6 +18,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+  }
+
+  &__form {
+    outline: none;
   }
 
   &__title {
